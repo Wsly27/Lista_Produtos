@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #58595b;
+}
+
+main {
+    flex: 1;
+}
+
+.topo {
+    text-align: center;
+    padding: 30px 0 10px 0;
+    background-color: #343a40;
+    color: white;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: #e9ecef;
+}
+
+.nav-buttons a.btn {
+    min-width: 120px;
+}
+
+.descricao {
+    margin-top: 20px; 
+    font-size: 1.1em;
+    color: #333;
+    text-align: center;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
